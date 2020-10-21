@@ -9,9 +9,9 @@ const moviesDB = {
 const likeFilms = prompt("Ваш любимый фильм?", "");
 const likeActor = prompt("Ваш любимый актер?", "");
 
-moviesDB.movies = likeFilms;
-moviesDB.actor = likeActor;
+moviesDB.movies.a = likeFilms;
+moviesDB.actor.b = likeActor;
 
-document.querySelector(".film").innerHTML = moviesDB.movies;
-document.querySelector(".actor").innerHTML = moviesDB.actor;
+document.querySelector(".film").innerHTML = moviesDB.movies.a;
+document.querySelector(".actor").innerHTML = moviesDB.actor.b;
 document.querySelector(".count").innerHTML = moviesDB.number;
