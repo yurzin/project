@@ -1,0 +1,71 @@
+.main {
+    margin: 0 auto;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > div {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: larger;
+}
+
+.film {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.actor {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: all .3s;
+}
+
+.count:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    transition: all .3s;
+}
+
+.actor:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    transition: all .3s;
+}
+
+.film:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    transition: all .3s;
+}
